@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-family: 'Muli', sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+}
+h2{
+    font-weight: bolder;
+}
+.superior{
+    background: #161313;
+}
+.color-navbar{
+    background:#A53232;
+}
+.color-white{
+    color:white;
+}
+.presentacion{
+    background: #AD6464;
+}
+.presentacion img{ 
+    height: 20rem;
+}
+.motivo-sitio{
+    background: #eee;
+    border-radius: 10px;
+}
+.color-olive{
+    color: #808000;
+}
+.color-lightslategray{
+    color: lightslategray;
+}
+.bg-black{
+    background: black;
+}
+.img-sobre-mi{
+    width: 16rem;
+    border-radius: 12px;
+    position: relative;
+    bottom: 0.8rem;
+}
+ul>li{
+    width: 20%;
+}
+li>a{
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+li>a:hover{
+    color: lightgrey;
+}
+.navbar-nav .nav-link{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.font-finita{
+    font-weight: 300;
+    font-style: italic;
+}
+.font-parrafo{
+    font-size: 0.9rem;
+}
+.icon{
+    font-size: 3.2rem;
+    color: mediumaquamarine;
+    width: calc(100% / 7);
+    text-align: center;
+}
+.font-chica{
+    font-size: 8px;
+}
+.alt-section{
+    height: 20rem;
+}
