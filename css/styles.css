@@ -79,3 +79,12 @@ li>a:hover{
 .alt-section{
     height: 20rem;
 }
+.footer{
+    background: #4E13BF;
+}
+.wpp-color{
+    color: #4FCC5D;
+}
+.wpp-color:hover{
+    color:greenyellow;
+}
