@@ -77,7 +77,7 @@ li>a:hover{
     font-size: 8px;
 }
 .alt-section{
-    height: 20rem;
+    height: 33vh;
 }
 .footer{
     background: #4E13BF;
@@ -87,4 +87,10 @@ li>a:hover{
 }
 .wpp-color:hover{
     color:greenyellow;
+}
+.redes-pers>a{
+    color: white;
+}
+.redes-pers>a:hover{
+    color: darksalmon;
 }
