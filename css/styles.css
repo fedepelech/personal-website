@@ -94,3 +94,15 @@ li>a:hover{
 .redes-pers>a:hover{
     color: darksalmon;
 }
+.portafolio{
+    background: #FFBDBD;
+}
+.perfil-icon>a{
+    color: white;
+}
+.perfil-icon>a:hover{
+    color: #6c757d ;
+}
+.font-mediana{
+    font-size: 0.7rem;
+}
