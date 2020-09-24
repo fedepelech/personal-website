@@ -106,3 +106,13 @@ li>a:hover{
 .font-mediana{
     font-size: 0.7rem;
 }
+.text-pink{
+    color: #FFBDBD;
+}
+.portafolio-btn{
+    background-color: white;
+}
+.portafolio-btn:hover{
+    background-color: #FFBDBD;
+    color: lightyellow;
+}
