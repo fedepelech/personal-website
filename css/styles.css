@@ -116,3 +116,6 @@ li>a:hover{
     background-color: #FFBDBD;
     color: lightyellow;
 }
+.btn-fp{
+    border-radius: 0.5rem;
+}
