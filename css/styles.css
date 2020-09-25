@@ -115,7 +115,12 @@ li>a:hover{
 .portafolio-btn:hover{
     background-color: #FFBDBD;
     color: lightyellow;
+    transition-duration: 200ms;
 }
 .btn-fp{
     border-radius: 0.5rem;
+}
+.icon-portafolio:hover{
+    transform: scale(1.2);
+    transition-duration: 400ms;
 }

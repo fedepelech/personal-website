@@ -53,12 +53,17 @@
   </nav>
 
   <section class="motivo-sitio color-olive container my-5 text-center py-3 font-finita">
-    <p class="mb-0">Realice esta web para poder demostrar mis conocimientos en programación y en diseño gráfico. Esta
-      página esta hecha integramente por mi.
-      Considero que es la mejor forma de poder mostrar lo que hago y mis habilidades/conocimientos en este ambito.
-      Igualmente en la sección Portafolio esta subido mi CV actualizado al dia que estes viendo esto.
-      Estoy en busqueda de un empleo fijo en esta área. Lo ideal sería uno que, a su vez, me permita seguir cursando mi
-      carrera actual (ing. en Informática) aunque sea en segundo plano</p>
+    <div class="row">
+      <div class="col-lg-12">
+        <p class="mb-0">Realice esta web para poder demostrar mis conocimientos en programación y en diseño gráfico. <br>
+          Esta página esta hecha integramente por mi, ya que considero que es la mejor forma de poder mostrar lo que hago <br>
+          y mis habilidades/conocimientos en este ambito. <br>
+          Igualmente en la sección Portafolio esta subido mi CV actualizado al dia que estes viendo esto. <br>
+          Estoy en busqueda de un empleo en esta área y asi poder ir desarollando experiencia y conocimiento. <br>
+          Lo ideal sería uno que, a su vez, me permita seguir cursando mi
+          carrera actual (ing. en Informática) aunque sea en segundo plano</p>
+      </div>
+    </div>
   </section>
 
   <section class="container py-5" id="habilidades">
@@ -77,18 +82,18 @@
           software, debido a mi motivación, el tiempo de estudio dedicado y a mi experiencia como freelancer.</p>
       </div>
       <div class="col-lg-5 d-flex align-items-center justify-content-end mt-1 flex-wrap">
-        <i class="fab fa-html5 icon icon-txt"></i>
-        <i class="fab fa-js-square icon icon-txt"></i>
-        <i class="fab fa-bootstrap icon icon-txt"></i>
-        <i class="fab fa-python icon icon-txt"></i>
-        <i class="fab fa-react icon icon-txt"></i>
-        <i class="fas fa-database icon icon-txt"></i>
-        <i class="fab fa-vuejs icon icon-txt"></i>
+        <i class="fab fa-html5 icon icon-txt icon-portafolio"></i>
+        <i class="fab fa-js-square icon icon-txt icon-portafolio"></i>
+        <i class="fab fa-bootstrap icon icon-txt icon-portafolio"></i>
+        <i class="fab fa-python icon icon-txt icon-portafolio"></i>
+        <i class="fab fa-react icon icon-txt icon-portafolio"></i>
+        <i class="fas fa-database icon icon-txt icon-portafolio"></i>
+        <i class="fab fa-vuejs icon icon-txt icon-portafolio"></i>
       </div>
     </div>
   </section>
 
-  <section class="bg-dark alt-section">
+  <section class="bg-dark alt-section" id="sobre-mi">
     <div class="container">
       <div class="row flex-row-reverse">
         <div class="col-8">
@@ -109,7 +114,7 @@
             Recomendadisimo.
           </p>
         </div>
-        <div class="col-4" id="sobre-mi">
+        <div class="col-4">
           <img src="img/sobre-mi.jpg" class="img-sobre-mi mb-5" alt="Foto personal">
         </div>
       </div>
@@ -139,8 +144,7 @@
           En JAVA, hice el clasico juego "La Viborita".
           Además, conocí cómo funciona la programación web, POO, y el lenguaje SQL de forma avanzada. <br>
           <br>
-          En 2017, realicé mi primera página web, muy básica por cierto, para una empresa constructora y de movimiento
-          de
+          En 2017, realicé mi primera página web, muy básica por cierto, para una empresa constructora y de movimiento de
           suelo: Micana Vial SRL.
           A partir de aquí, no pare de instruirme/anotarme a cursos de programación web (diferentes lenguajes y
           tecnologías). <br> <br>
@@ -169,30 +173,30 @@
   <section class="portafolio my-5 py-3" id="portafolio">
     <div class="container p-3">
       <div class="row">
-        <div class="col-lg-6 border-right">
+        <div class="col-lg-6 col-12 border-right">
           <h2 class="text-white mb-4 text-center">Portafolio</h2>
           <div class="row">
             <div class="col-lg-4 d-flex flex-column align-items-center perfil-icon mt-2">
               <a href="https://www.linkedin.com/in/federico-pelech-b50618167/" target="_blank">
-                <i class="fab fa-linkedin-in fa-3x"></i>
+                <i class="fab fa-linkedin-in fa-3x icon-portafolio"></i>
               </a>
               <span class="text-muted font-mediana">Perfil profesional</span>
             </div>
             <div class="col-lg-4 d-flex flex-column align-items-center perfil-icon mt-2">
               <a href="https://www.behance.net/frederickdaniel" target="_blank">
-                <i class="fab fa-behance fa-3x"></i>
+                <i class="fab fa-behance fa-3x icon-portafolio"></i>
               </a>
               <span class="text-muted font-mediana">Diseño gráfico</span>
             </div>
             <div class="col-lg-4 d-flex flex-column align-items-center perfil-icon mt-2">
               <a href="https://www.hackerrank.com/fedepelech" target="_blank">
-                <i class="fab fa-hackerrank fa-3x"></i>
+                <i class="fab fa-hackerrank fa-3x icon-portafolio"></i>
               </a>
               <span class="text-muted font-mediana">HackerRank</span>
             </div>
           </div>
         </div>
-        <div class="col-lg-6 pt-3 mt-2">
+        <div class="col-lg-6 pt-3 mt-2 align-items-center">
           <a href="/img/CV.pdf" target="_blank" class="btn btn-block text-pink font-weight-bold portafolio-btn btn-fp mb-3">CURRICULUM VITAE</a>
           <a href="/img/CV.pdf" target="_blank" class="btn btn-block text-pink font-weight-bold portafolio-btn btn-fp">TRABAJOS REALIZADOS</a>       
         </div>
@@ -203,19 +207,23 @@
   <section class="container mt-5 pb-5" id="contacto">
     <h2 class="text-center text-dark">Contacto</h2>
     <div class="row justify-content-center">
-      <div class="col-lg-6 col-xs-12 mt-3">
+      <div class="col-lg-6 col-12 mt-3">
         <form method="POST" action="#">
           <div class="form-group">
-            <input type="text" placeholder="Nombre" class="form-control">
+            <label for="nom">Nombre <span class="text-danger">*</span></label>
+            <input id="nom" type="text" placeholder="Nombre" class="form-control" required>
           </div>
           <div class="form-group">
-            <input type="text" placeholder="Empresa" class="form-control">
+            <label for="emp">Empresa o proyecto</label>
+            <input id="emp" type="text" placeholder="Empresa" class="form-control">
           </div>
           <div class="form-group">
-            <input type="email" placeholder="Email" class="form-control">
+            <label for="email">Correo electrónico <span class="text-danger">*</span></label>
+            <input id="email" type="email" placeholder="ejemplo@correo.com" class="form-control" required>
           </div>
           <div class="form-group">
-            <textarea placeholder="Escriba su consulta/propuesta" class="form-control"></textarea>
+            <label for="prop">Comentario</label>
+            <textarea id="prop" placeholder="Escriba su consulta/propuesta" class="form-control" style="resize: none;"></textarea>
           </div>
 
           <button class="btn btn-block btn-outline-dark font-weight-bold">Enviar</button>
@@ -226,7 +234,7 @@
   </section>
  
   <footer class="container-fluid footer py-1 mt-5">
-    <div class="row">
+    <div class="row align-items-center">
       <div class="col-4 mt-3">
         <h4 class="text-white">Gracias por visitar este sitio!
           Si podes proporcionarme un feedback sobre
@@ -238,19 +246,19 @@
         <h4 class="text-white text-center my-3">Redes personales</h4>
         <div class="row justify-content-center redes-pers">
           <a href="https://instagram.com/fede_pelech" target="_blank">
-            <i class="fab fa-instagram fa-3x mx-3"></i>
+            <i class="fab fa-instagram fa-3x mx-3 icon-portafolio"></i>
           </a>
           <a href="https://twitter.com/Federicopelech" target="_blank">
-          <i class="fab fa-twitter fa-3x mx-3"></i>
+          <i class="fab fa-twitter fa-3x mx-3 icon-portafolio"></i>
           </a>
           <a href="https://wa.link/rcl13s" target="_blank">
-            <i class="fab fa-whatsapp fa-3x mx-3"></i>
+            <i class="fab fa-whatsapp fa-3x mx-3 icon-portafolio"></i>
           </a>
         </div>
     </div>
       <div class="col-3 offset-1">
-        <p class="text-right text-white font-weight-bold">Mi ubicación</p>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5525.926129940106!2d-58.47755040618749!3d-34.56025593699369!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb688a5472f13%3A0xe135def37ccd430d!2sCoghlan%2C%20CABA!5e0!3m2!1ses!2sar!4v1600546477786!5m2!1ses!2sar" width="100%" height="120px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        <p class="text-center text-white font-weight-bold">Mi ubicación</p>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5525.926129940106!2d-58.47755040618749!3d-34.56025593699369!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb688a5472f13%3A0xe135def37ccd430d!2sCoghlan%2C%20CABA!5e0!3m2!1ses!2sar!4v1600546477786!5m2!1ses!2sar" width="100%" height="100px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
       </div>
   </footer>
 </body>
