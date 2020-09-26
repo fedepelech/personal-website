@@ -14,6 +14,11 @@ h2{
 .superior{
     background: #161313;
 }
+.cara:hover{
+    transform: scale(1.3);
+    transition-duration: 500ms;
+    opacity: 0.9;
+}
 .color-navbar{
     background:#A53232;
 }
@@ -41,10 +46,15 @@ h2{
     background: black;
 }
 .img-sobre-mi{
-    width: 16rem;
+    width: 27vh;
+    padding: 5px;
     border-radius: 12px;
-    position: relative;
-    bottom: 0.8rem;
+}
+.img-sobre-mi:hover{
+    transform: scale(1.2);
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+    opacity: 0.8;
 }
 ul>li{
     width: 20%;
@@ -75,9 +85,6 @@ li>a:hover{
 }
 .font-chica{
     font-size: 8px;
-}
-.alt-section{
-    height: 33vh;
 }
 .footer{
     background: #4E13BF;
@@ -123,4 +130,7 @@ li>a:hover{
 .icon-portafolio:hover{
     transform: scale(1.2);
     transition-duration: 400ms;
+}
+.ubicacion{
+    font-size: 1.5rem;
 }

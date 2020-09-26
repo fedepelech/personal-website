@@ -31,30 +31,32 @@
   </div>
   <main class="presentacion container-fluid py-5">
     <div class="row justify-content-center py-5">
-      <img src="img/foto-centro.png" alt="animacion-fede" class="my-5">
+      <img src="img/foto-centro.png" alt="animacion-fede" class="cara my-5">
     </div>
     <header>
       <h1 class="text-center text-white mt-5">DESAROLLO WEB FULL-STACK</h1>
     </header>
   </main>
-  <nav class="navbar justify-content-center color-navbar position-sticky sticky-top">
-    <ul class="navbar-nav d-flex flex-row container-fluid mx-5">
-      <li class="nav-item active">
-        <a href="#inicio" class="nav-link color-white text-center">INICIO</a></li>
-      <li class="nav-item">
-        <a href="#habilidades" class="nav-link color-white text-center">HABILIDADES</a></li>
-      <li class="nav-item">
-        <a href="#sobre-mi" class="nav-link color-white text-center">SOBRE MI</a></li>
-      <li class="nav-item">
-        <a href="#portafolio" class="nav-link color-white text-center">PORTAFOLIO</a></li>
-      <li class="nav-item">
-        <a href="#contacto" class="nav-link color-white text-center">CONTACTO</a></li>
-    </ul>
-  </nav>
 
-  <section class="motivo-sitio color-olive container my-5 text-center py-3 font-finita">
+  <nav class="navbar navbar-expand-lg navbar-dark color-navbar position-sticky sticky-top">
+    <a class="navbar-brand d-md-none text-white font-weight-bold pl-3" href="#">FP <span class="font-weight-light">Desarollador Web</span></a>  
+    <ul class="navbar-nav d-flex flex-row container-fluid mx-5">
+        <li class="nav-item d-none d-md-block">
+          <a href="#inicio" class="nav-link text-center">INICIO</a></li>
+        <li class="nav-item d-none d-md-block">
+          <a href="#habilidades" class="nav-link text-center">HABILIDADES</a></li>
+        <li class="nav-item d-none d-md-block">
+          <a href="#sobre-mi" class="nav-link text-center">SOBRE MI</a></li>
+        <li class="nav-item d-none d-md-block">
+          <a href="#portafolio" class="nav-link text-center">PORTAFOLIO</a></li>
+        <li class="nav-item d-none d-md-block">
+          <a href="#contacto" class="nav-link text-center">CONTACTO</a></li>
+      </ul>
+  </nav>
+  
+  <section class="motivo-sitio color-olive container my-5 text-center p-3 font-finita">
     <div class="row">
-      <div class="col-lg-12">
+      <div class="col-10 offset-1">
         <p class="mb-0">Realice esta web para poder demostrar mis conocimientos en programación y en diseño gráfico. <br>
           Esta página esta hecha integramente por mi, ya que considero que es la mejor forma de poder mostrar lo que hago <br>
           y mis habilidades/conocimientos en este ambito. <br>
@@ -69,7 +71,7 @@
   <section class="container py-5" id="habilidades">
     <h2 class="text-right mt-2 text-success">Habilidades</h2>
     <div class="row">
-      <div class="col-lg-7 font-parrafo color-tomato">
+      <div class="col-lg-7 col-md-6 col-12 font-parrafo color-tomato">
         <p class="mt-5">Me considero una persona positiva, muy tranquila y extremadamente perseverante. <br>
           Al principio, soy un poco timido e introvertido. Con el paso del tiempo me voy soltando. <br>
           Suelo llevarme bien con las demas personas y aunque generalmente hago muchos chistes o bromas, en los momentos
@@ -81,7 +83,7 @@
           Considero que tengo el conocimiento y la capacidad para entrar como Jr. a una empresa desarolladora de
           software, debido a mi motivación, el tiempo de estudio dedicado y a mi experiencia como freelancer.</p>
       </div>
-      <div class="col-lg-5 d-flex align-items-center justify-content-end mt-1 flex-wrap">
+      <div class="col-lg-5 col-md-6 col-12 d-flex align-items-center justify-content-end mt-1 flex-wrap">
         <i class="fab fa-html5 icon icon-txt icon-portafolio"></i>
         <i class="fab fa-js-square icon icon-txt icon-portafolio"></i>
         <i class="fab fa-bootstrap icon icon-txt icon-portafolio"></i>
@@ -95,10 +97,13 @@
 
   <section class="bg-dark alt-section" id="sobre-mi">
     <div class="container">
-      <div class="row flex-row-reverse">
-        <div class="col-8">
+      <div class="row">
+        <div class="col-lg-3 col-md-4 col-12 d-flex align-items-center">
+          <img src="img/sobre-mi.jpg" class="img-sobre-mi mb-2 ml-2" alt="Foto personal">
+        </div>
+        <div class="col-lg-9 col-md-8 col-12 d-flex flex-column">
           <h2 class="text-white mt-3 mb-2">Sobre mi</h2>
-          <p class="color-white pb-4">Mi nombre es Federico Daniel Pelech.
+          <p class="color-white pb-4">Mi nombre es Federico Daniel Pelech. <br>
             Tengo 19 años y soy Técnico en Computación. <br>
             Actualmente curso la carrera Ingeniería en Informática en la UADE. <br>
             Realice esta página para tener ejemplos concretos de los trabajos qué puedo elaborar y poder ampliar mi
@@ -110,12 +115,9 @@
             hobbies son jugar CSGO, andar en bicicleta y cocinar (cosas sanas, obvio). <i
               class="em em-face_with_monocle" aria-role="presentation" aria-label="FACE WITH MONOCLE"></i>
             <br>
-            Me encanta leer, ahora mismo estoy leyendo la novela ‘Caballo de Troya’ de J.J. Benitez.
+            Me encanta leer. Ahora mismo estoy leyendo la novela ‘Caballo de Troya’ de J.J. Benitez.
             Recomendadisimo.
           </p>
-        </div>
-        <div class="col-4">
-          <img src="img/sobre-mi.jpg" class="img-sobre-mi mb-5" alt="Foto personal">
         </div>
       </div>
     </div>
@@ -173,22 +175,22 @@
   <section class="portafolio my-5 py-3" id="portafolio">
     <div class="container p-3">
       <div class="row">
-        <div class="col-lg-6 col-12 border-right">
+        <div class="col-lg-6 col-md-6 col-12 border-right">
           <h2 class="text-white mb-4 text-center">Portafolio</h2>
-          <div class="row">
-            <div class="col-lg-4 d-flex flex-column align-items-center perfil-icon mt-2">
+          <div class="row justify-content-center">
+            <div class="col-lg-4 col-4 d-flex flex-column align-items-center perfil-icon mt-2">
               <a href="https://www.linkedin.com/in/federico-pelech-b50618167/" target="_blank">
                 <i class="fab fa-linkedin-in fa-3x icon-portafolio"></i>
               </a>
               <span class="text-muted font-mediana">Perfil profesional</span>
             </div>
-            <div class="col-lg-4 d-flex flex-column align-items-center perfil-icon mt-2">
+            <div class="col-lg-4 col-4 d-flex flex-column align-items-center perfil-icon mt-2">
               <a href="https://www.behance.net/frederickdaniel" target="_blank">
                 <i class="fab fa-behance fa-3x icon-portafolio"></i>
               </a>
               <span class="text-muted font-mediana">Diseño gráfico</span>
             </div>
-            <div class="col-lg-4 d-flex flex-column align-items-center perfil-icon mt-2">
+            <div class="col-lg-4 col-4 d-flex flex-column align-items-center perfil-icon mt-2">
               <a href="https://www.hackerrank.com/fedepelech" target="_blank">
                 <i class="fab fa-hackerrank fa-3x icon-portafolio"></i>
               </a>
@@ -196,7 +198,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-6 pt-3 mt-2 align-items-center">
+        <div class="col-lg-6 col-md-6 col-12 pt-3 mt-2 align-items-center">
           <a href="/img/CV.pdf" target="_blank" class="btn btn-block text-pink font-weight-bold portafolio-btn btn-fp mb-3">CURRICULUM VITAE</a>
           <a href="/img/CV.pdf" target="_blank" class="btn btn-block text-pink font-weight-bold portafolio-btn btn-fp">TRABAJOS REALIZADOS</a>       
         </div>
@@ -235,14 +237,14 @@
  
   <footer class="container-fluid footer py-1 mt-5">
     <div class="row align-items-center">
-      <div class="col-4 mt-3">
+      <div class="col-lg-4 col-md-4 col-12 mt-3">
         <h4 class="text-white">Gracias por visitar este sitio!
           Si podes proporcionarme un feedback sobre
           aspectos a mejorar, te lo agradezco!
         </h4>
         <p class="text-white">Federico Daniel Pelech - Desarollo Web</p>
       </div>
-      <div class="col-4">
+      <div class="col-lg-4 col-md-4 col-12">
         <h4 class="text-white text-center my-3">Redes personales</h4>
         <div class="row justify-content-center redes-pers">
           <a href="https://instagram.com/fede_pelech" target="_blank">
@@ -256,8 +258,8 @@
           </a>
         </div>
     </div>
-      <div class="col-3 offset-1">
-        <p class="text-center text-white font-weight-bold">Mi ubicación</p>
+      <div class="col-lg-3 offset-lg-1 col-md-3 offset-md-1 col-10 offset-1 pt-3">
+        <p class="text-center text-white font-weight-bold ubicacion">Mi ubicación</p>
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5525.926129940106!2d-58.47755040618749!3d-34.56025593699369!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb688a5472f13%3A0xe135def37ccd430d!2sCoghlan%2C%20CABA!5e0!3m2!1ses!2sar!4v1600546477786!5m2!1ses!2sar" width="100%" height="100px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
       </div>
   </footer>
